@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Session01Challenge</Text>
+    <Description>Some description for Session01Challenge</Description>
+    <Assembly>Session01Challenge.dll</Assembly>
+    <FullClassName>Session01Challenge.Command</FullClassName>
+    <ClientId>d27ce616-24db-438d-94c0-d3ded4deb14f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+	<AddIn Type="Command">
+		<Text>Command01Challenge</Text>
+		<Description>The FizzBuzz Challenge</Description>
+		<Assembly>Session01Challenge.dll</Assembly>
+		<FullClassName>Session01Challenge.Command01Challenge</FullClassName>
+		<ClientId>e48c10c7-0bf6-44a6-92e5-71de4fb97512</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+  <AddIn Type="Application">
+    <Name>Application Session01Challenge</Name>
+    <Assembly>Session01Challenge.dll</Assembly>
+    <FullClassName>Session01Challenge.App</FullClassName>
+    <ClientId>9a2f07db-cdc9-42dc-a573-6653587bd59a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
